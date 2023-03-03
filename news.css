@@ -1,0 +1,71 @@
+#head{
+    text-align: center;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    overflow: hidden;
+    border-style: double;
+    margin: 2% 5%;
+    border-radius: 10px;
+    background-color: azure;
+}
+.nhead{
+    text-align: center;
+    font-size: x-large;
+}
+.divImg{
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nimg{
+    height: 200px;
+}
+.npara{
+    margin: 0 2%;
+    text-align: justify;
+    font-size: x-large;
+}
+.phead{
+    text-align: center;
+    font-size: x-large;
+    margin: 0;
+}
+.full{
+    color: blue;
+    cursor: pointer;
+    display: inline-flex;
+    flex-flow: row-reverse;
+    margin: 0% 2%;
+}
+.less{
+    color: blue;
+    cursor: pointer;
+    display:inline-flex;
+    flex-flow: row-reverse;
+    visibility: hidden;
+    margin: 0% 2%;
+}
+.full:hover{
+    color: violet;    
+}
+.less:hover{
+    color : violet;
+}
+@media screen and (max-width : 515px) {
+    .nimg{
+        height: 145px;
+    }
+}
+@media screen and (max-width:375px) {
+    .nimg{
+        height: 120px;
+    }
+}
